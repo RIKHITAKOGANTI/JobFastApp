@@ -1,0 +1,60 @@
+.contacts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 20px;
+}
+
+.contacts-card {
+  background-color: rgb(0, 21, 21);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  opacity: 0.6;
+  max-width: 600px;
+  width: 100%;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #e6fefc; /* Slightly lighter text color */
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.app-moto {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #e6fefc; /* Slightly lighter text color */
+  text-align: center;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #e6fefc; /* Slightly lighter text color */
+  text-align: center;
+}
+
+.contact-details p {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #e6fefc; /* Slightly lighter text color */
+}
+
+.contact-details a {
+  color: #007bff; /* Bootstrap blue */
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}

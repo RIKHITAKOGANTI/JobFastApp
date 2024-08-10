@@ -1,0 +1,79 @@
+.create-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #d8deda;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  opacity: 0.7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-form > div {
+  margin-bottom: 20px;
+}
+
+.create-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.create-form input,
+.create-form select {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: black;
+}
+
+.create-form input:focus,
+.create-form textarea:focus,
+.create-form select:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.create-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.create-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.skill-set {
+  margin-top: 20px;
+}
+
+.skill-set ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-set li {
+  margin-bottom: 10px;
+}
+
+.skill-set input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.skill-set label {
+  font-weight: bold;
+  color: #333;
+}
