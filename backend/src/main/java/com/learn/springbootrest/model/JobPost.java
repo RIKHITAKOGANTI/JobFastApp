@@ -1,4 +1,4 @@
-package com.telusko.springbootrest.model;
+package com.learn.springbootrest.model;
 
 import java.util.List;
 import jakarta.persistence.Entity;
