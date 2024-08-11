@@ -1,4 +1,4 @@
-package com.telusko.springbootrest.controller;
+package com.learn.springbootrest.controller;
 
 import java.util.List;
 
